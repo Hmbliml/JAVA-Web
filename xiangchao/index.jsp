@@ -23,7 +23,7 @@
                  height: 30px;
                 }  
         </style>
-	<body>
+	<body background="http://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/377adab44aed2e73e0e7176d8601a18b87d6fa61.jpg">
         <center>
 	&#160&#160&#160&#160&#160&#160&#160&#160请输入账号和密码
           <form >
@@ -33,7 +33,9 @@
                *密码:&#160&#160&#160&#160
                <input id="i2"type="password">
                <br/>
-               <input id="i3"type="button"value="登录" onclick="tl()">
+               <a href="https://www.baidu.com">
+                <input id="i3"type="button"value="登录">
+               </a>
           </form>
         </center>
 	</body>
