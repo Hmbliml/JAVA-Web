@@ -7,10 +7,10 @@
     <body>  
           <% 
                 request.setCharacterEncoding("utf-8");
-		String username=request.getParameter("user");
-                String password=request.getParameter("pass");
-		out.println("用户名："+username+"<BR>");
-                out.println("密码："+password+"<BR>");
+		String user=request.getParameter("user");
+                String pass=request.getParameter("pass");
+		out.println("用户名："+user+"<BR>");
+                out.println("密码："+pass+"<BR>");
  	 %>  
     </body>  
 </html>  
