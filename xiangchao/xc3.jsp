@@ -5,8 +5,9 @@
     <title>登录界面</title>
     <link rel="stylesheet" href="./xc3.css">
 </head>
-<body background="http://m.xnnews.com.cn/ylxw/rdzx/201901/W020190111281442642373.jpg" style="background-repeat:no-repeat;background-size:100% 100%;background-attachment: fixed;"
->
+<body background="http://m.xnnews.com.cn/ylxw/rdzx/201901/W020190111281442642373.jpg" style="background-
+
+repeat:no-repeat;background-size:100% 100%;background-attachment: fixed;">
 <!--背景-->
 <div class="wel" id="background-3"></div>
 <!--左右两边云-->
@@ -43,7 +44,7 @@
                 </div>
             </div>
         </form>
-        <script language="javascript" type="text/javascript">
+	<script language="javascript" type="text/javascript">
                                 function check()
                                 {   
                                      var admin=document.getElementById("user").value;
@@ -60,7 +61,7 @@
                                             return false;
                                            }
                                 }
-        </script>
+         </script>
     </div>
     <div class="box-2 le-2">
         <form action="" method="post">
