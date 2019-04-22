@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>欢迎来到漫威酒店!</title>
+<style>
+*{
+            padding: 0;
+            margin: 0;
+ }
+nav ul {
+    width:100%;
+    border-radius:10px;
+    background:linear-gradient(to bottom,#efefef,#bbbbbb);
+    padding:0;
+    display::inline-table;
+    position:relative;  
+    box-shadow:1px 1px 3px #666;
+    font-size:30px;
+}
+nav ul ul {
+    display:none;
+    width:10.37%;
+    font-size:20px;
+    text-align:center;
+}
+nav ul li {
+    float:left; 
+    list-style:none;
+}
+nav ul::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+nav ul li a {
+    display:block;
+    padding:25px 40px;
+    color:#000;
+    text-decoration:none;
+    font-family:"微软雅黑";
+}
+nav ul li:hover > ul {
+    display:block;
+}
+nav ul li:hover {
+    background:linear-gradient(to bottom,#4f5964,#5f6975);
+}
+nav ul li:hover a {
+    color:#FFF;
+}
+nav ul ul {
+    background:#5f6975;
+    border-radius:0;
+    position:absolute;
+    top:100%;
+    padding:0;
+}
+nav ul ul li {
+    float:none;
+    border-top:1px solid #6b727c;
+    border-bottom:1px solid #575f6a;
+}
+nav ul ul li a {
+    color:#FFF;
+}   
+nav ul ul li a:hover {
+    background:#4b545f;
+}
+</style>
+</head>
+<body>
+<nav>
+        <ul>
+            <li><a href="#">酒店背景</a></li> 
+            <li><a href="#">房间种类</a>
+                <ul>
+                    <li><a href="#">雷神</a></li>
+                    <li><a href="#">浩克</a></li>
+                    <li><a href="#">钢铁侠</a></li>
+                    <li><a href="#">美国队长</a></li>
+                </ul>
+            </li>
+	    <li><a href="#">环境图片</a></li>
+            <li style="float:right"><a href="#">关于我们</a></li>
+        </ul>
+</nav>  
+</body>
+</html>

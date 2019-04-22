@@ -3,9 +3,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>登录界面</title>
-    <link rel="stylesheet" href="./xc3.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
-<body background="http://m.xnnews.com.cn/ylxw/rdzx/201901/W020190111281442642373.jpg" style="background-repeat:no-repeat;background-size:100% 100%;background-attachment: fixed;"
+<body background="http://m.xnnews.com.cn/ylxw/rdzx/201901/W020190111281442642373.jpg" style="background-repeat:no-repeat; background-size:100% 100%; background-attachment: fixed;"
 >
 <!--背景-->
 <div class="wel" id="background-3"></div>
@@ -21,7 +21,7 @@
 <!--登录注册表-->
 <div class="wel" id="from">
     <div class="box-2 le-1">
-        <form action="test2.jsp" method="post">
+        <form action="zhujiemian.html" method="post">
             <div class="flrg">
                     <h3>登录</h3>
                 <div class="a">
@@ -51,7 +51,7 @@
                                         if(admin=="xiangchao" && password=="xiangchao")  
                                            {
                                             alert("登录成功!");
-                                            location.href="test2.jsp";
+                                            location.href="zhujiemian.html";
                                             return ;
                                            }
                                         else
